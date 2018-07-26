@@ -94,7 +94,6 @@ def plot_tour_coordinates (coordinates, city_tour):
     plt.plot(xy.iloc[1,0], xy.iloc[1,1], marker = 's', alpha = 1, markersize = 7, color = 'orange')
     return
 
-
 # Function: Rank Cities by Distance
 def ranking(Xdata, city = 0):
     rank = pd.DataFrame(np.zeros((Xdata.shape[0], 2)), columns = ['Distance', 'City'])
