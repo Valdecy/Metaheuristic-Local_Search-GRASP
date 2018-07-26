@@ -108,7 +108,6 @@ def restricted_candidate_list(Xdata, greediness_value = 0.5):
     seed = [[],float("inf")]
     sequence = []
     sequence.append(random.sample(list(range(1,Xdata.shape[0]+1)), 1)[0])
-    count = 1
     for i in range(0, Xdata.shape[0]):
         count = 1
         rand = int.from_bytes(os.urandom(8), byteorder = "big") / ((1 << 64) - 1)
