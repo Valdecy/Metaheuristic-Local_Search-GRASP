@@ -170,7 +170,7 @@ seed = seed_function(X)
 lsgrasp = greedy_randomized_adaptive_search_procedure(X, city_tour = seed, iterations = 5, rcl = 5, greediness_value = 0.5)
 plot_tour_distance_matrix(X, lsgrasp) # Red Point = Initial city; Orange Point = Second City # The generated coordinates (2D projection) are aproximated, depending on the data, the optimum tour may present crosses.
 
-Y = pd.read_csv('Python-MH-Local Search-GRASP-Dataset-02.txt', sep = '\t') # Berlin 52 = 7542
+Y = pd.read_csv('Python-MH-Local Search-GRASP-Dataset-02.txt', sep = '\t') # Berlin 52 = 7544.37
 X = buid_distance_matrix(Y)
 seed = seed_function(X)
 lsgrasp = greedy_randomized_adaptive_search_procedure(X, city_tour = seed, iterations = 10, rcl = 15, greediness_value = 0.5)
