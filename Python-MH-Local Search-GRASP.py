@@ -144,6 +144,7 @@ def local_search_2_opt(Xdata, city_tour):
             best_route = copy.deepcopy(seed) 
     return tour
 
+# Function: GRASP
 def greedy_randomized_adaptive_search_procedure(Xdata, city_tour, iterations = 50, rcl = 25, greediness_value = 0.5):
     count = 0
     best_solution = copy.deepcopy(city_tour)
