@@ -1,4 +1,4 @@
-# -Metaheuristic-Local_Search-GRASP
+# Metaheuristic-Local_Search-GRASP
 GRASP (Greedy Randomized Adaptive Search Procedure) Function for TSP problems. The function returns: 1) A list with the order of the cities to visit, and the total distance for visiting this same list order.
 
 * X = Distance Matrix.
