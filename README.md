@@ -11,7 +11,7 @@ GRASP (Greedy Randomized Adaptive Search Procedure) Function for TSP problems. T
 
 * iterations = Total number of iterations. The Default Value is 5.
 
-* rcl = List of candidate solutions. The Default Value is5.
+* rcl = List of candidate solutions. The Default Value is 5.
 
 * greediness_value = Chance of improving a candidate solution or to generate a random one. The Default Value is 0.5.
 
